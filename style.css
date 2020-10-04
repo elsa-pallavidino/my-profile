@@ -1,0 +1,112 @@
+
+body{
+	background-color: #d0ccca;
+	color: rgb(30,30,30);
+	font-family: Roboto;
+	font-size: 15px;
+}
+
+h1, h2 {
+	font-family: 'Merriweather', serif;
+}
+
+h1 {
+	color:black;
+	font-weight: 300;
+	text-align: center;	
+}
+
+h2 {
+	color: #678396;
+	font-weight: 200;
+	text-align: center;	
+}
+
+a {
+	font-family: 'Merriweather', serif;
+	text-decoration: none;
+	color: #a4816e;
+	font-weight: 100;
+	font-size:14px;
+}
+
+a:hover {
+	color:#3c6c66;
+}
+
+
+#profile {
+	width:250px;
+	border-radius:50%;
+	border:0.5px dashed black;
+}
+
+#profile:hover {
+	border:0.5px solid white;
+}
+
+div {
+	width: 700px;
+    background: white;
+    margin: 40px auto;
+    padding: 30px;
+    box-shadow: 0 15px 30px rgba(50,50,93,0.1);
+    border-radius: 6px;
+}
+
+#banner {
+	width: 600px;
+	background: rgba(164, 129, 110, 20%);
+}
+
+#div1, #div2, #div3, #div4 {
+	width: 600px; 
+}
+
+.btn-white {
+	font-size: 12px;
+	background-color: white;
+	padding: 8px 20px;
+	border-radius: 6px;
+}
+
+.btn-white:hover {
+	background-color: #678396;
+	color:white;
+}
+
+#introduction {
+	margin-bottom: 30px;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+@media (max-width: 760px) {
+
+	.container {
+		width: 600px;
+	}
+
+	#banner, #div1, #div2, #div3, #div4 {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.container {
+		width: 400px;
+	}
+	
+	#banner, #div1, #div2, #div3, #div4 {
+		width: 300px;
+	}
+}
